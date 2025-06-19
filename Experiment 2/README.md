@@ -39,20 +39,6 @@ Each method was tested for:
 
 ---
 
-## 📂 Project Structure
-
-```
-.
-├── polyak.py
-├── rmsprop.py
-├── heavy_ball.py
-├── adam.py
-├── relu_analysis.py
-├── README.md  ← you're here
-```
-
----
-
 ## 📊 Key Insights
 
 - Adam showed the most **stable and consistent convergence** across all function types.
@@ -60,15 +46,4 @@ Each method was tested for:
 - RMSProp performed best with **high β and lower α** values.
 - ReLU analysis demonstrated how zero gradients stop updates in RMSProp and Heavy Ball, while Adam attempts correction.
 
----
 
-## 📬 Author
-
-**Vishaalini Ramasamy Manikandan**  
-MSc Computer Science (Data Science), Trinity College Dublin  
-📧 [vishaalini70@gmail.com](mailto:vishaalini70@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/vishaalini-manikandan/)
-
----
-
-📢 *Open to research, internship, and collaborative opportunities.*
