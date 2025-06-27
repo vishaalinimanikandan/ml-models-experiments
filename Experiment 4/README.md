@@ -1,7 +1,7 @@
 
 # 🔍 Random Search Algorithms for Optimization
 
-This repository presents an in-depth comparison of **Global Random Search**, **Modified Random Search with Population-Based Sampling**, and **Gradient Descent**. These optimization methods are applied to mathematical test functions and extended to **CNN hyperparameter tuning on CIFAR-10**.
+This folder presents an in-depth comparison of **Global Random Search**, **Modified Random Search with Population-Based Sampling**, and **Gradient Descent**. These optimization methods are applied to mathematical test functions and extended to **CNN hyperparameter tuning on CIFAR-10**.
 
 ---
 
