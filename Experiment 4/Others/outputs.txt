@@ -1,0 +1,127 @@
+(venv) E:\tcd\Optimisation_data_algo\week 8>python random_search_algorithms.py
+
+(venv) E:\tcd\Optimisation_data_algo\week 8>python main_experiment.py
+Running experiments on test functions...
+Plotting cost landscapes...
+
+Comparing methods on Function 1: f(x,y) = 6*(x-1)^4 + 8*(y-2)^2
+Running Global Random Search...
+  Run 1/5, Best cost: 0.009010
+  Run 2/5, Best cost: 0.011137
+  Run 3/5, Best cost: 0.050011
+  Run 4/5, Best cost: 0.005990   
+  Run 5/5, Best cost: 0.002925   
+Running Modified Random Search...
+  Run 1/5, Best cost: 0.000037
+  Run 2/5, Best cost: 0.000201
+  Run 3/5, Best cost: 0.000336
+  Run 4/5, Best cost: 0.000086
+  Run 5/5, Best cost: 0.000040
+Running Gradient Descent...   
+  Run 1/5, Best cost: 0.000000
+  Run 2/5, Best cost: 0.000000
+  Run 3/5, Best cost: 0.000000
+  Run 4/5, Best cost: 0.000000
+  Run 5/5, Best cost: 0.000000
+
+Comparing methods on Function 2: f(x,y) = Max(x-1,0) + 8*|y-2|
+Running Global Random Search...
+  Run 1/5, Best cost: 0.032445
+  Run 2/5, Best cost: 0.005437
+  Run 3/5, Best cost: 0.000549
+  Run 4/5, Best cost: 0.025530
+  Run 5/5, Best cost: 0.008875
+Running Modified Random Search...
+  Run 1/5, Best cost: 0.008316
+  Run 2/5, Best cost: 0.002282
+  Run 3/5, Best cost: 0.001155
+  Run 4/5, Best cost: 0.001296
+  Run 5/5, Best cost: 0.003984
+Running Gradient Descent...
+  Run 1/5, Best cost: 0.000000
+  Run 2/5, Best cost: 0.000000
+  Run 3/5, Best cost: 0.000000
+  Run 4/5, Best cost: 0.000000
+  Run 5/5, Best cost: 0.000000
+
+  Loading and preprocessing CIFAR10 data...
+Original x_train shape: (4999, 32, 32, 3)
+
+Applying Global Random Search...
+E:\tcd\Optimisation_data_algo\week 8\venv\Lib\site-packages\keras\src\layers\convolutional\base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2025-03-26 22:13:16.297568: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Iteration 1/10, Params: [1.06744857e+02 6.42989758e-03 9.32960111e-01 9.93398828e-01
+ 8.11484416e+00], Cost: -0.434900, Best Cost: -0.434900
+Iteration 2/10, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.315600, Best Cost: -0.434900
+Iteration 3/10, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.398600, Best Cost: -0.434900
+Iteration 4/10, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.407000, Best Cost: -0.434900
+Iteration 5/10, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.310000, Best Cost: -0.434900
+Iteration 6/10, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.313300, Best Cost: -0.434900
+Iteration 7/10, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.398800, Best Cost: -0.434900
+Iteration 8/10, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.411500, Best Cost: -0.434900
+Iteration 9/10, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.401200, Best Cost: -0.434900
+Iteration 10/10, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.390600, Best Cost: -0.434900
+
+Global Random Search Results:
+Best Parameters: [1.06744857e+02 6.42989758e-03 9.32960111e-01 9.93398828e-01
+ 8.11484416e+00]
+Best Cost (negative accuracy): -0.434900
+Best Accuracy: 0.434900
+
+Applying Modified Random Search...
+Generating initial population...
+  Sample 1/5, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.387500
+  Sample 2/5, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.100000
+  Sample 3/5, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.399400
+  Sample 4/5, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.382900
+  Sample 5/5, Params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00], Cost: -0.100000
+Iteration 1/2
+  Sample 1/5, Params: [9.98675542e+01 1.00000000e-02 9.47894619e-01 9.96122063e-01
+ 7.18055921e+00], Cost: -0.100000
+  Sample 2/5, Params: [9.98675542e+01 1.00000000e-02 9.47894619e-01 9.96122063e-01
+ 7.18055921e+00], Cost: -0.322400
+  Sample 3/5, Params: [9.98675542e+01 1.00000000e-02 9.47894619e-01 9.96122063e-01
+ 7.18055921e+00], Cost: -0.307800
+  Sample 4/5, Params: [9.98675542e+01 1.00000000e-02 9.47894619e-01 9.96122063e-01
+ 7.18055921e+00], Cost: -0.360900
+  Best cost so far: -0.399400, Best params: [1.05889629e+02 9.51207163e-03 9.39078849e-01 9.95926719e-01
+ 8.90046601e+00]
+Iteration 2/2
+  Sample 1/5, Params: [9.98675542e+01 1.00000000e-02 9.47894619e-01 9.96122063e-01
+ 7.18055921e+00], Cost: -0.386000
+  Sample 2/5, Params: [9.98675542e+01 1.00000000e-02 9.47894619e-01 9.96122063e-01
+ 7.18055921e+00], Cost: -0.398000
+  Sample 3/5, Params: [9.98675542e+01 1.00000000e-02 9.47894619e-01 9.96122063e-01
+ 7.18055921e+00], Cost: -0.401500
+  Sample 4/5, Params: [9.98675542e+01 1.00000000e-02 9.47894619e-01 9.96122063e-01
+ 7.18055921e+00], Cost: -0.435400
+  Best cost so far: -0.435400, Best params: [9.98675542e+01 1.00000000e-02 9.47894619e-01 9.96122063e-01
+ 7.18055921e+00]
+
+Modified Random Search Results:
+Best Parameters: [9.98675542e+01 1.00000000e-02 9.47894619e-01 9.96122063e-01
+ 7.18055921e+00]
+Best Cost (negative accuracy): -0.435400
+Best Accuracy: 0.435400
+
+Global Random Search Best Hyperparameters:
+{'batch_size': 106, 'learning_rate': np.float64(0.0064298975819872635), 'beta1': np.float64(0.9329601114453925), 'beta2': np.float64(0.993398827839543), 'epochs': 8}
+
+Modified Random Search Best Hyperparameters:
+{'batch_size': 99, 'learning_rate': np.float64(0.01), 'beta1': np.float64(0.9478946187330003), 'beta2': np.float64(0.9961220627922608), 'epochs': 7}
