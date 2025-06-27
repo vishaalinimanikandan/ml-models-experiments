@@ -1,7 +1,7 @@
 
 # 🔍 Random Search Algorithms for Optimization
 
-This repository presents an in-depth comparison of **Global Random Search**, **Modified Random Search with Population-Based Sampling**, and **Gradient Descent**. These optimization methods are applied to mathematical test functions and extended to **CNN hyperparameter tuning on CIFAR-10**.
+This folder presents an in-depth comparison of **Global Random Search**, **Modified Random Search with Population-Based Sampling**, and **Gradient Descent**. These optimization methods are applied to mathematical test functions and extended to **CNN hyperparameter tuning on CIFAR-10**.
 
 ---
 
@@ -35,7 +35,8 @@ This repository presents an in-depth comparison of **Global Random Search**, **M
 
 ## 📊 Example Chart: CNN Hyperparameter Tuning
 
-![Hyperparameter Tuning Results](hyperparameter_tuning_results.png)
+![hyperparameter_tuning_results](https://github.com/user-attachments/assets/faa353a0-6c91-45bf-9745-522ba3eacb74)
+
 
 This chart shows how Global and Modified Random Search compare during the CNN tuning process.  
 **Y-axis** = Negative Accuracy (lower is better), **X-axis** = Time (s)
@@ -79,15 +80,3 @@ python cnn_hyperparameter_tuning.py
 - **Modified Random Search:** Population-based adaptive sampling
 - **Gradient Descent:** Derivative-based optimization for smooth landscapes
 
----
-
-## 📬 Author
-
-**Vishaalini Ramasamy Manikandan**  
-MSc Computer Science (Data Science), Trinity College Dublin  
-📧 [vishaalini70@gmail.com](mailto:vishaalini70@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/vishaalini-manikandan/)
-
----
-
-📢 *Open to research, internship, and AI roles – let’s connect!*
