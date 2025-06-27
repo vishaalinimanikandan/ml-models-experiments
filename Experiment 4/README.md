@@ -35,7 +35,8 @@ This folder presents an in-depth comparison of **Global Random Search**, **Modif
 
 ## 📊 Example Chart: CNN Hyperparameter Tuning
 
-![Hyperparameter Tuning Results](hyperparameter_tuning_results.png)
+![hyperparameter_tuning_results](https://github.com/user-attachments/assets/faa353a0-6c91-45bf-9745-522ba3eacb74)
+
 
 This chart shows how Global and Modified Random Search compare during the CNN tuning process.  
 **Y-axis** = Negative Accuracy (lower is better), **X-axis** = Time (s)
