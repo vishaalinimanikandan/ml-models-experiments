@@ -11,7 +11,7 @@ This repository presents a set of structured experiments of **Optimization of da
 
 ### 🔬 Experiment 1 – Derivative Estimation & Gradient Descent
  *Corresponds to:* Week 2 Report  
- Folder: [`Experiment 1`](./Experiment 1)  
+ Folder: [`Experiment 1`](./Experiment1)  
 - Symbolic vs. numerical differentiation using `sympy` and finite differences  
 - Gradient descent on `y(x) = x⁴`  
 - δ sensitivity analysis  
@@ -21,7 +21,7 @@ This repository presents a set of structured experiments of **Optimization of da
 
 ###  Experiment 2 – Optimizer Comparison on Non-Convex Surfaces
  *Corresponds to:* Week 4 Report  
- Folder: [`Experiment 2`](./Experiment 2)  
+ Folder: [`Experiment 2`](./Experiment2)  
 - Polyak Step, RMSProp, Heavy Ball, and Adam  
 - Contour plots and optimization path visualizations  
 - Non-smooth function behavior analysis  
@@ -31,7 +31,7 @@ This repository presents a set of structured experiments of **Optimization of da
 
 ###  Experiment 3 – Loss Surface Navigation & Step Size Sensitivity
  *Corresponds to:* Week 6 Report  
- Folder: [`Experiment 3`](./Experiment 3)  
+ Folder: [`Experiment 3`](./Experiment3)  
 - Advanced optimizers applied to non-convex surfaces  
 - Mini-batch stochastic gradient descent  
 - Step size & batch size effect on convergence  
@@ -41,7 +41,7 @@ This repository presents a set of structured experiments of **Optimization of da
 
 ### 🤖 Experiment 4 – Random Search for CNN Hyperparameter Tuning
  *Corresponds to:* Week 8 Report  
- Folder: [`Experiment 4`](./Experiment 4)  
+ Folder: [`Experiment 4`](./Experiment4)  
 - Global and modified random search  
 - Application to CIFAR-10 CNN training  
 - Time vs. cost vs. accuracy comparisons  
