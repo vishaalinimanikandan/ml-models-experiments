@@ -79,15 +79,3 @@ python cnn_hyperparameter_tuning.py
 - **Modified Random Search:** Population-based adaptive sampling
 - **Gradient Descent:** Derivative-based optimization for smooth landscapes
 
----
-
-## 📬 Author
-
-**Vishaalini Ramasamy Manikandan**  
-MSc Computer Science (Data Science), Trinity College Dublin  
-📧 [vishaalini70@gmail.com](mailto:vishaalini70@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/vishaalini-manikandan/)
-
----
-
-📢 *Open to research, internship, and AI roles – let’s connect!*
